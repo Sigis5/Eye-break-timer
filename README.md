@@ -1,6 +1,46 @@
-# Eye-break-timer #
-* A program that counts down 20 minutes to tell you to take a break from screen for 20s
-* It works only on windows 10 and 11. 
-* You can customize the timer duration time and the brake time for your own purposes.
-* To run the program, download the file and double click it to run.
-* If the notification doesn't show up, check your settings for permissions.
+# Eye Break Timer
+
+---
+
+Eye timer is a lightweight Python script, which beeps every X minutes you set in the variable to remind you to take a break for your screen
+
+`timerduration = 20*60` This will beep every **20** minutes
+
+---
+## Requirements
+
+```
+plyer
+time
+winsound
+```
+
+---
+
+## How notifications look like:
+
+![img.png](img.png)****
+
+![img_1.png](img_1.png)
+
+---
+
+## How to run the project:
+
+1. Clone the repository:
+`git clone https://github.com/Sigis5/Eye-break-timer.git`
+2. Open the folder `Eye-break-timer`
+3. Install the python requirements:
+```
+pip install plyer
+pip install winsound
+pip install time
+```
+4. Run the script: `python EYE_timer_2.0.py`
+5. Enjoy
+
+---
+
+## License:
+
+This project is licensed under MIT license. See the LICENSE file for more info.
